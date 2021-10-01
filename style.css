@@ -1,0 +1,17 @@
+/* Header Style */
+
+.upper_head {
+    height: 35px;
+}
+
+nav {
+    height: 65px;
+}
+
+nav .container {
+    min-width: 98%!important;
+}
+
+.bg_black {
+    background-color: black;
+}
