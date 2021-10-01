@@ -67,3 +67,11 @@ nav .container {
 .orange {
     background-color: #cd3d0f;
 }
+
+/* Media Queries */
+
+@media screen and (min-width:1200px) {
+    .returnal .card {
+        width: 33%!important;
+    }
+}
