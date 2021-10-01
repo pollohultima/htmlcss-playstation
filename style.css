@@ -19,7 +19,7 @@ nav {
     height: 65px;
 }
 
-nav .container, .ps_5 .container-fluid {
+nav .container, .container-fluid {
     width: 98%!important;
 }
 
@@ -80,6 +80,10 @@ nav .container, .ps_5 .container-fluid {
 
 .highlight {
     border-bottom: 2px solid #308cd7!important;
+}
+
+.bg_dark {
+    background-color: #1f1f1f;
 }
 
 /* Media Queries */
