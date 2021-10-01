@@ -1,3 +1,11 @@
+/********** body style **********/
+
+body {
+    font-family: Arial, sans-serif!important;
+}
+
+/********** header style **********/
+
 .upper_head {
     height: 35px;
 }
@@ -14,4 +22,48 @@ nav .container {
     background-color: black;
 }
 
-/* /.Header Style */
+/* Banner returnal style */
+
+.banner {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center top;
+    ;
+}
+
+.returnal {
+    background-image: url(./img/jumbo-bg.png)
+}
+
+/* Banner it2 style */
+
+.it2 {
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+/* Banner ps plus style */
+
+.banner_ps_plus {
+    width: 100%;
+    height: 400px;
+}
+
+/* utilities */
+
+.mt_100 {
+    margin-top: 100px;
+}
+
+.bottom_mod {
+    bottom: 85px
+}
+
+.rounded {
+    border-radius: 20px!important;
+    border: none;
+}
+
+.orange {
+    background-color: #cd3d0f;
+}
