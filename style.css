@@ -4,6 +4,11 @@ body {
     font-family: Arial, sans-serif!important;
 }
 
+.correct {
+    width: 98%;
+    margin: auto;
+}
+
 /********** header style **********/
 
 .upper_head {
@@ -14,8 +19,8 @@ nav {
     height: 65px;
 }
 
-nav .container {
-    min-width: 98%!important;
+nav .container, .ps_5 .container-fluid {
+    width: 98%!important;
 }
 
 .bg_black {
@@ -68,10 +73,19 @@ nav .container {
     background-color: #cd3d0f;
 }
 
+.celeste {
+    color: #308cd7!important;
+    font-weight: bold;
+}
+
+.highlight {
+    border-bottom: 2px solid #308cd7!important;
+}
+
 /* Media Queries */
 
 @media screen and (min-width:1200px) {
-    .returnal .card {
-        width: 33%!important;
+    .returnal .card, .it2 .card {
+        width: 38%!important;
     }
 }
