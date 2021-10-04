@@ -117,6 +117,14 @@ nav .container, .container-fluid {
     background-color: #00439c;
 }
 
+.selected {
+    height: calc(100% + 8px);
+    width: calc(100% - 8px);
+    border: 2px solid #308cd7;
+    bottom: -4px;
+    right: 4px;
+}
+
 /* Media Queries */
 
 @media screen and (min-width:1200px) {

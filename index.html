@@ -18,75 +18,100 @@
     </head>
     <body>
         <header class="site_header fixed-top">
-            <div class="upper_head bg_black"></div>
-            <nav class="navbar navbar-expand-xl navbar-light bg-light">
+            <div class="upper_head bg_black d-flex align-items-center">
+                <div class="container-fluid d-flex justify-content-end">
+                    <img height="13" src="./img/sony_logo.svg" alt=""
+                        class="align-self-center">
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white
+                shadow-sm">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler d-xl-none" type="button"
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/play_logo.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#collapsibleNavId"
-                        aria-controls="collapsibleNavId"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavId">
-                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span
-                                        class="visually-hidden">(current)</span></a>
+                    <div class="collapse navbar-collapse"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="#">Giochi</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link" href="#">Hardware</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#"
-                                    id="dropdownId" data-bs-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                                <div class="dropdown-menu"
-                                    aria-labelledby="dropdownId">
-                                    <a class="dropdown-item" href="#">Action 1</a>
-                                    <a class="dropdown-item" href="#">Action 2</a>
-                                </div>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sevizi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Novita</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Fai acquisti</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Supporto</a>
                             </li>
                         </ul>
-                        <form class="d-flex my-2 my-lg-0">
-                            <input class="form-control me-sm-2" type="text"
-                                placeholder="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0"
-                                type="submit">Search</button>
-                        </form>
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="#">My PlayStation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-dark rounded
+                                    text-white px-3" href="#">Accedi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn pe-0" href="#">
+                                    <img src="./img/lens.svg" height="24"
+                                        alt="">
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </nav>
-
         </header>
         <!-- /.site_header -->
 
         <main class="site_main">
-            <div class="banner returnal mt_100 position-relative">
-                <div class="card bg-transparent position-absolute bottom_mod
-                    start-0 border-0" style="width: 100%;">
-                    <img class="card-img-top m-3"
-                        src="./img/returnal-hero-banner-logo.png" alt=""
-                        class="card-img-top" style="width: 60%;">
-                    <div class="card-body text-white">
-                        <h1 class="card-title display-5 mb-4">Rompi
-                            il cerchio</h1>
-                        <p class="card-text mb-4">Rialzati dopo ogni sconfitta e
-                            affronta una nuova sfida con ogni rinascita in
-                            questo esplosivo thriller fantascientifico,
-                            disponibile in esclusiva su PS5.</p>
-                        <a href="#" class="btn btn-warning rounded orange">Acquista
-                            ora</a>
+            <div class="banner returnal position-relative mt_100">
+                <div class="container_100 position-absolute bottom-0 px_auto">
+                    <div class="card bg-transparent
+                        border-0" style="width: 100%;">
+                        <img class="card-img-top"
+                            src="./img/returnal-hero-banner-logo.png" alt=""
+                            class="card-img-top" style="width: 60%;">
+                        <div class="card-body text-white ps-0 pb-5">
+                            <h1 class="card-title mb-4">Rompi
+                                il cerchio</h1>
+                            <p class="card-text mb-4">Rialzati dopo ogni
+                                sconfitta e
+                                affronta una nuova sfida con ogni rinascita in
+                                questo esplosivo thriller fantascientifico,
+                                disponibile in esclusiva su PS5.</p>
+                            <a href="#" class="btn btn-warning rounded orange">Acquista
+                                ora</a>
+                        </div>
                     </div>
                 </div>
+
             </div>
             <!-- /.banner_1 -->
 
-            <section class="cards_wrapper my-4">
+            <section class="cards_wrapper my-3">
                 <div class="container-fluid pt-3">
                     <div class="row g-3">
-                        <div class="col-6 col-sm-4 col-xl-2">
+                        <div class="col-6 col-sm-4 col-xl-2 position-relative">
+                            <div class="selected position-absolute rounded"></div>
                             <img src="./img/returnal-listing-thumb-01-ps5.jpg"
                                 alt="" class="img-fluid rounded">
                         </div>
@@ -127,10 +152,10 @@
                             PLAY HAS NO LIMITS
                         </div>
                         <div class="card-body p-0 mb-3">
-                            <h2 class="card-title display-4 mb-4">Ecco la
+                            <h1 class="card-title mb-4">Ecco la
                                 PlayStation
-                                5</h2>
-                            <p class="text-muted fs-4 mt-2">Tuffati in nuove
+                                5</h1>
+                            <p class="text-muted fs-5 pt-1">Tuffati in nuove
                                 possibilità
                                 di
                                 gioco completamente insapettate</p>
@@ -140,10 +165,10 @@
                         <div class="col-12 col-md-5">
                             <div class="card border-0 mt-5">
                                 <div class="card-body p-0">
-                                    <h2 class="card-title display-4 mb-4">Console
+                                    <h2 class="card-title display-6 mb-4">Console
                                         PlayStation
                                         5</h2>
-                                    <p class="text-muted fs-4 mt-2">Sperimenta
+                                    <p class="text-muted fs-5 mt-2">Sperimenta
                                         la nuova
                                         generazione di incredibili giochi
                                         Playstation.</p>
@@ -213,16 +238,16 @@
             </section>
             <!-- /.ps_5 -->
 
-            <div class="banner it2 mt-5 position-relative px_3p">
-                <div class="container">
-                    <div class="card bg-transparent position-absolute bottom_mod
-                        start-0 border-0" style="width: 100%;">
-                        <img class="card-img-top m-3"
+            <div class="banner it2 mt-5 px_3p position-relative">
+                <div class="container_100 position-absolute bottom-0 px_auto">
+                    <div class="card bg-transparent border-0" style="width:
+                        100%;">
+                        <img class="card-img-top"
                             src="./img/it-takes-two-logo.png" alt=""
                             class="card-img-top img-fluid" style="width: 35%;
                             min-width: 250px;">
-                        <div class="card-body text-white">
-                            <h1 class="card-title display-5 mb-4">Un'avventura
+                        <div class="card-body text-white ps-0 pb-5">
+                            <h1 class="card-title fs-1 mb-4">Un'avventura
                                 cooperativa selvaggia ti attende</h1>
                             <p class="card-text mb-4">Trova un amico e partire
                                 insieme per l'avventura più folle delle vostre
@@ -235,7 +260,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
             <!-- /.banner it2 -->
 
@@ -243,8 +267,8 @@
                 <div class="container-fluid">
                     <div class="card border-0 pt-5 bg-transparent">
                         <div class="card-body p-0 text-white border-0">
-                            <h3 class="card-title display-6 mb-4">Nuove Uscite</h3>
-                            <p class="fs-3 mt-2">Giochi incredibili per PS4 e
+                            <h3 class="card-title mb-4">Nuove Uscite</h3>
+                            <p class="fs-4 mt-2">Giochi incredibili per PS4 e
                                 PS5
                                 disponibili ora</p>
                         </div>
@@ -397,10 +421,10 @@
                 <div class="container-fluid">
                     <div class="card border-0">
                         <div class="card-body text-center p-0 mb-3">
-                            <h2 class="card-title display-5 mb-4">Esplora
+                            <h1 class="card-title mb-4">Esplora
                                 PlayStation<span class="fs-3 align-text-top">&reg;</span>
-                                4</h2>
-                            <p class="text-muted fs-4 mt-2">
+                                4</h1>
+                            <p class="text-muted fs-5 mt-2">
                                 Giochi incredibili e intrattenimento senza fine.
                                 <br>
                                 Non c'è mai stato un momento migliore per
@@ -415,9 +439,9 @@
                                     src="./img/ps4-slim-homepage-image-block.jpg"
                                     class="card-img-top" alt="...">
                                 <div class="card-body px-0">
-                                    <h2 class="card-title display-5 mb-4">PlayStation
+                                    <h2 class="card-title mb-4">PlayStation
                                         4</h2>
-                                    <p class="text-muted fs-4 mb-4">Giochi
+                                    <p class="text-muted fs-5 mb-4">Giochi
                                         incredibili
                                         live
                                         su PS4, con 1TB di spazio di
@@ -433,9 +457,9 @@
                                     src="./img/double11-202010-tw-psvr.jpg"
                                     class="card-img-top" alt="...">
                                 <div class="card-body px-0">
-                                    <h2 class="card-title display-6 mb-4">PlayStation
+                                    <h2 class="card-title mb-4">PlayStation
                                         VR</h2>
-                                    <p class="text-muted fs-4 mb-4">Oltre 500
+                                    <p class="text-muted fs-5 mb-4">Oltre 500
                                         titoli ed esperienze di gioco. Scoprili
                                         tutti.</p>
                                     <a href="#" class="btn btn-primary rounded">Scopri
@@ -449,8 +473,8 @@
                                     src="./img/dualshock-4-listing-thumb.jpg"
                                     class="card-img-top" alt="...">
                                 <div class="card-body px-0">
-                                    <h2 class="card-title display-6 mb-4">Accessori</h2>
-                                    <p class="text-muted fs-4 mb-4">Migliora la
+                                    <h2 class="card-title mb-4">Accessori</h2>
+                                    <p class="text-muted fs-5 mb-4">Migliora la
                                         tua esperienza PS4 con una gamma di
                                         accessori ufficiali.</p>
                                     <a href="#" class="btn btn-primary rounded">Scopri
@@ -500,7 +524,7 @@
                         <div class="card-body text-center p-0 mb-0">
                             <h2 class="card-title fs-2 mb-4">Nuovi sconti
                                 sul PlayStation Store</h2>
-                            <p class="text-muted mt-2 mb-0">
+                            <p class="text-muted fs-5 mt-2 mb-0">
                                 Sconti pazzeschi, collezioni curate e saldi
                                 stagionali du PS5, PS4 e PS VR, tutti in un
                                 unico posto.
@@ -587,8 +611,110 @@
         </main>
         <!-- /.site_main -->
 
-        <footer class="site_footer">
+        <footer class="site_footer bg_blue mt_100">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-xl-6 mt_75">
+                        <img src="./img/ps-footer.svg" alt="">
+                        <div class="mt_40 vertcal-align-middle">
+                            <a href=""><img src="./img/language-globe.svg"
+                                    alt="" style="height: 20px;"></a>
+                            <span class="text-white">Country/Region: Italy</span>
+                        </div>
+                    </div>
 
+                    <div class="col-12 col-xl-6 mt-xl-4">
+                        <div class="row mt-5 mt-xl-5 ps-4">
+                            <div class="col-12 col-md-4">
+                                <ul class="list-unstyled">
+                                    <li class="lh-lg"><a href=""
+                                            class="text-decoration-none
+                                            text-white">Link
+                                            footer n</a></li>
+                                    <li class="lh-lg"><a href=""
+                                            class="text-decoration-none
+                                            text-white">Link
+                                            footer n</a></li>
+                                    <li class="lh-lg"><a href=""
+                                            class="text-decoration-none
+                                            text-white">Link
+                                            footer n</a></li>
+                                    <li class="lh-lg"><a href=""
+                                            class="text-decoration-none
+                                            text-white">Link
+                                            footer n</a></li>
+                                    <li class="lh-lg"><a href=""
+                                            class="text-decoration-none
+                                            text-white">Link
+                                            footer n</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <ul class="list-unstyled ps-4">
+                                    <li class="lh-lg"><a href=""
+                                            class="text-decoration-none
+                                            text-white">Link
+                                            footer n</a></li>
+                                    <li class="lh-lg"><a href=""
+                                            class="text-decoration-none
+                                            text-white">Link
+                                            footer n</a></li>
+                                    <li class="lh-lg"><a href=""
+                                            class="text-decoration-none
+                                            text-white">Link
+                                            footer n</a></li>
+                                    <li class="lh-lg"><a href=""
+                                            class="text-decoration-none
+                                            text-white">Link
+                                            footer n</a></li>
+                                    <li class="lh-lg"><a href=""
+                                            class="text-decoration-none
+                                            text-white">Link
+                                            footer n</a></li>
+                                    <li class="lh-lg"><a href=""
+                                            class="text-decoration-none
+                                            text-white">Link
+                                            footer n</a></li>
+                                    <li class="lh-lg"><a href=""
+                                            class="text-decoration-none
+                                            text-white">Link
+                                            footer n</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <ul class="list-unstyled ps-4">
+                                    <li class="lh-lg"><a href=""
+                                            class="text-decoration-none
+                                            text-white">Link
+                                            footer n</a></li>
+                                    <li class="lh-lg"><a href=""
+                                            class="text-decoration-none
+                                            text-white">Link
+                                            footer n</a></li>
+                                    <li class="lh-lg"><a href=""
+                                            class="text-decoration-none
+                                            text-white">Link
+                                            footer n</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 col-xl-6">
+                        <img src="./img/sie-logo.svg" alt="" style="height:
+                            50px;">
+                        <p class="text-white mt-3">Website &copy;2021 Sony
+                            Interactive Entertainment Europe Limited. Tutti i
+                            contenuti, nomi dei giochi, nomi commerciali e/o di
+                            abbigliamento, marchi registrati, grafica e immagini
+                            associati sono marchi registrati e/o materiale
+                            protetto da copyright dei rispettivi proprietari.
+                            Tutti i diriti riservati. <a href=""
+                                class="text-white">Maggiori Info</a></p>
+                    </div>
+                </div>
+            </div>
         </footer>
         <!-- /.site_footer -->
     </body>
