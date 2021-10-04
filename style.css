@@ -20,7 +20,15 @@ nav {
 }
 
 nav .container, .container-fluid {
-    width: 98%!important;
+    width: 97%!important;
+}
+
+.container_100 {
+    width: 100%;
+}
+
+.px_auto {
+    padding: 0 calc(12px + 1.5%);
 }
 
 .bg_black {
@@ -63,8 +71,8 @@ nav .container, .container-fluid {
     margin-top: 75px;
 }
 
-.bottom_mod {
-    bottom: 30px
+.mt_40 {
+    margin-top: 40px;
 }
 
 .rounded {
@@ -103,6 +111,10 @@ nav .container, .container-fluid {
 
 .bg_darkblue {
     background-color: #161c3b;
+}
+
+.bg_blue {
+    background-color: #00439c;
 }
 
 /* Media Queries */
